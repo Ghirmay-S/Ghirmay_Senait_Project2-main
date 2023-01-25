@@ -1,0 +1,316 @@
+.hidden {
+    display: none;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+
+}
+
+.box-color {
+    background-color: #1d1a1ad2;
+    color: white;
+    text-align: center;
+
+}
+
+.box-color2 {
+    background-color: #1d1a1ad2;
+    color: white;
+    text-align: center;
+
+}
+
+
+
+/* 2. -- Grid -- */
+
+.grid {
+    display: grid;
+    padding-left: 15px;
+    padding-right: 15px;
+    grid-template-columns: repeat(12, 70px);
+    grid-column-gap: 30px;
+}
+
+/* 3. -- Header -- */
+
+#header-logo {
+	width: 150px;
+	height: 110px;
+	line-height: 110px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border: 3px solid #1d1a1ad2;
+	border-radius: 20px;
+	background-color: #1d1a1ad2;
+}
+
+#header-nav {
+    height: 66px;
+    width: 785px;
+    grid-column: 5/13;
+    margin-top: 30px;
+
+}
+
+/* 4. -- Promotion Section --*/
+
+#promoSec {
+	width: 1447px;
+	background-color: #484848;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+
+#promoImgLin {
+	margin-left: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	margin-top: 80px;
+	margin-bottom: 80px;
+}
+
+#promoImg {
+	width: 450px;
+	height: 600px;	
+	line-height: 600px;
+	margin-left: auto;
+	border: 10px solid  rgb(246, 242, 242)
+}
+
+#promoImg h4 {
+	font-size: 30px;
+	text-align: center;
+	font-weight: bold;
+	color:  rgb(246, 242, 242)
+}
+
+#promoTxtLin {
+	margin-right: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	margin-top: 80px;
+	margin-bottom: 80px;
+}
+
+#promoTxt {
+	width: 620px;
+	height: 500px;	
+	line-height: 500px;
+	margin-left: 50px;
+	margin-right: auto;
+	border: 10px solid  rgb(246, 242, 242)
+}
+
+#promoTxt h4 {
+	font-size: 30px;
+	text-align: center;
+	font-weight: bold;
+	color: rgb(246, 242, 242)
+}
+
+
+
+/* 4. -- Introduction --*/
+
+#introSec {
+	margin-top: 100px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+#pr {
+	width: 450px;
+	height: 450px;
+	line-height: 450px;
+	border: 10px solid #1d1a1ad2;	
+    
+}
+
+#pr h3 {
+	font-size: 30px;
+	text-align: center;
+	font-weight: bold;
+}
+
+#lb {
+	width: 450px;
+	height: 450px;
+	line-height: 450px;
+	border: 10px solid #1d1a1ad2;
+}
+
+#lb h3 {
+	font-size: 30px;
+	text-align: center;
+	font-weight: bold;
+}
+
+#oc {
+	width: 450px;
+	height: 450px;
+	line-height: 450px;
+	border: 10px solid #1d1a1ad2;
+}
+
+#oc h3 {
+	font-size: 30px;
+	text-align: center;
+	font-weight: bold;
+}
+
+
+
+/* 5. -- Description -- */
+
+#image-1 {
+    grid-column: 2/4;
+    width: 270px;
+    height: 220px;
+    margin-top: 55px;
+
+}
+#image-2 {
+    grid-column: 2/4;
+    width: 270px;
+    height: 220px;
+    margin-top: 35px;
+    grid-row: 2/3;
+
+}
+
+#des-box-1 {
+    grid-column: 6/11;
+    width: 700px;
+    height: 220px;
+    margin-top: 55px;
+    margin-left: 22px;
+
+}
+
+#des-box-2 {
+    grid-column: 5/11;
+    width: 700px;
+    height: 220px;
+    margin-top: 35px;
+    grid-row: 2/3;
+}
+    
+/* 6. -- Products -- */
+
+
+#productSec {
+	margin-top: 160px;
+	margin-bottom: 160px;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+
+#proLin1 {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	margin-left: auto;
+}
+
+#pro1Img1 {
+	width: 350px;
+	height: 450px;	
+	line-height: 450px;
+	margin-top: 22px;
+	margin-left: auto;
+	border: 10px solid #1d1a1ad2;
+}
+
+#pro1Img1 h3 {
+	font-size: 30px;
+	text-align: center;
+	font-weight: bold;
+}
+
+
+#proLin2 {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	margin-right: auto;
+	margin-left: 22px;	
+}
+
+#pro1Img2 {
+	width: 400px;
+	height: 161px;	
+	line-height: 161px;
+	margin-top: 22px;
+	border: 10px solid #1d1a1ad2;;	
+}
+
+
+#pro1Img2 h3 {
+	font-size: 30px;
+	text-align: center;
+	font-weight: bold;
+}
+
+#pro1Descript {
+	width: 400px;
+	height: 161px;	
+	line-height: 161px;
+	margin-top: 22px;
+	border: 10px solid #1d1a1ad2;	
+}
+
+#pro1Descript h3 {
+	font-size: 30px;
+	text-align: center;
+	font-weight: bold;
+}
+
+
+/* 7. --footer Container --*/
+
+#footer-con-full {
+    height: 140px;
+    margin-top: 100px;
+    width: 1447px;
+}
+
+#footer-nav {
+    width: 770px;
+    height: 66px;
+    margin-top: 40px;
+    grid-column: 3/11;
+}
+    
+
+/* 8. -- copyright bar --*/
+
+
+#bottomBr {
+	margin: 0 auto;
+	width: 1447px;
+	height: 20px;
+	line-height: 50px;
+	background-color: #000000;
+}
+
+#copyright {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	margin-right: 75px;
+}
+
+#bottomBr h3 {
+	font-size: 25px;
+	font-weight: bold;
+	color:#000000;
+}
